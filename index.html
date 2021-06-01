@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="high.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="heading">Data Project : Javascript</h1>
+    <div class="Button-wrapper">
+      <input
+        class="Button"
+        type="button"
+        onclick="histogram()"
+        value="Graph 1"
+      />
+      <input
+        class="Button"
+        type="button"
+        onclick="bar_graph()"
+        value="Graph 2"
+      />
+      <input
+        class="Button"
+        type="button"
+        onclick="count_by_activity()"
+        value="Graph 3"
+      />
+      <input class="Button" type="button" onclick="group()" value="Graph 4" />
+    </div>
+    <div class="highcharts-figure">
+      <div id="container"></div>
+    </div>
+    <script type="text/javascript" src="high.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+  </body>
+</html>
